@@ -14,24 +14,24 @@ public class CalculadoraImc {
 
         System.out.print("Digite seu peso: ");
         double peso = sc.nextDouble();
-        System.out.println();
         System.out.print("Digite sua altura: ");
         double altura = sc.nextDouble();
 
-        IMC = peso / (altura * altura);
+        double alturaElevada = Math.pow(altura, 2);
+        IMC = peso / alturaElevada;
 
-        if (IMC < 18.5) {
-            System.out.println("Abaixo do peso!");
+        if (IMC <= 18.5) {
+            System.out.printf("Abaixo do peso!" + " IMC: " + String.format("%.1f", IMC));
         } else if (IMC >= 18.5 && IMC <= 24.9) {
-            System.out.println("Peso normal");
+            System.out.printf("Peso normal" + " IMC: " + String.format("%.1f", IMC));
         } else if (IMC >= 25 && IMC <= 29.9) {
-            System.out.println("Levemente acima do peso");
+            System.out.printf("Levemente acima do peso" + " IMC: " + String.format("%.1f", IMC));
         } else if (IMC >= 30 && IMC <= 34.9) {
-            System.out.println("Obesidade grau 1");
+            System.out.printf("Obesidade grau 1" + " IMC: " + String.format("%.1f", IMC));
         } else if (IMC >= 35 && IMC <= 39.9) {
-            System.out.println("Obesidade grau 2");
+            System.out.printf("Obesidade grau 2" + " IMC: " + String.format("%.1f", IMC));
         } else {
-            System.out.println("Obesidade grau 3");
+            System.out.print("Obesidade grau 3" + " -- IMC: " + String.format("%.1f", IMC));
         }
 
         sc.close();

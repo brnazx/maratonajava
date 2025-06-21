@@ -12,7 +12,7 @@ public class MediaFinalAluno {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 
-        final int NUMERO_PROVAS = 4;
+        int NUMERO_PROVAS = 4;
 
         double[] notas = new double[NUMERO_PROVAS];
         double somaNotas = 0.0;

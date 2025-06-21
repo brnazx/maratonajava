@@ -10,15 +10,15 @@ public class ConversorTemparatura {
         Locale.setDefault( Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        double celsius;
+        double C, F;
 
         System.out.print("Digite a temparatura em farenheit: ");
-        double farenheit = sc.nextDouble();
+        F = sc.nextDouble();
 
-        celsius = (5.0 * (farenheit - 32)) / 9;
+        C = (5.0 * (F - 32)) / 9;
 
-        System.out.printf( "Temperatura em Celsius: %.2f%n", celsius);
-        System.out.printf( "Temperatura em Farenheit: %.2f%n", farenheit);
+        System.out.printf( "Temperatura em Celsius: %.2f%n", C);
+        System.out.printf( "Temperatura em Farenheit: %.2f%n", F);
 
         sc.close();
     }

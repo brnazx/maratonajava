@@ -15,7 +15,7 @@ public class VerificadorBooleano {
 
         if (valor1 && valor2){
             System.out.println("Ambos sao verdadeiros.");
-        } else if (valor1 || valor2){
+        } else if (!valor1 && !valor2){
             System.out.println("Ambos sao falsos.");
         } else {
             System.out.println("Ambos sao diferentes.");

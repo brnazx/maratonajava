@@ -12,10 +12,11 @@ public class TrocadorDeValores {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
+        int temp = a;
         a = b;
-        b = a;
+        b = temp;
 
-        System.out.println( "A = " + a + " B = " + b);
+        System.out.println("Os valores foram trocados: A = " + a + " B = " + b);
 
         sc.close();
     }

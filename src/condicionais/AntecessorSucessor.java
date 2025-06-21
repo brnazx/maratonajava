@@ -25,7 +25,8 @@ public class AntecessorSucessor {
             int y = x;
             sucessor = x + 1;
             antecessor = x - 1;
-            System.out.println(antecessor + " " +  y + " " + sucessor);
+            System.out.println("Sucessor = " + sucessor);
+            System.out.println("Antecessor = " + antecessor);
         }
 
         sc.close();

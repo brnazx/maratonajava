@@ -9,14 +9,15 @@ public class DivisaoComResto {
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Digite dois valores inteiros:");
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        int quociente = a / b;
+        int resultado = a / b;
         int resto = a % b;
 
-        System.out.println("Quociente: " + quociente);
-        System.out.println("Resto: " + resto);
+        System.out.println(" O Quociente de " + a + " dividido por " + b + " = " + resultado);
+        System.out.println(" O Resto de " + a + " dividido por " + b + " = " + resto);
 
         sc.close();
     }

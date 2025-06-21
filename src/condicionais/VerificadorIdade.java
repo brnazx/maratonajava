@@ -15,9 +15,9 @@ public class VerificadorIdade {
         int idade = sc.nextInt();
 
         if (idade >= 18) {
-            System.out.println("Maior de idade");
+            System.out.printf("Seu nome é %s, e voce é maior de idade", nome);
         } else {
-            System.out.println("Menor de idade");
+            System.out.printf("Seu nome é %s, e voce é menor de idade", nome);
         }
 
         sc.close();
