@@ -1,9 +1,10 @@
-package exercicios;
+package condicionais;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class exercicio8 {
+// Faça um algoritmo que calcule o IMC (Índice de Massa Corporal) de uma pessoa, leia o seu peso e sua altura e imprima na tela sua condição
+public class CalculadoraImc {
     public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);

@@ -1,8 +1,10 @@
-package exercicios;
+package entrada_saida;
 
 import java.util.Scanner;
 
-public class exercicio6 {
+// Faça um algoritmo que leia um valor X e imprima o valor de X com 5% de reajuste.
+
+public class CalculadoraReajuste {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

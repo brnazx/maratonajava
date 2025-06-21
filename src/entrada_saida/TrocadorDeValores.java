@@ -1,10 +1,10 @@
-package exercicios;
+package entrada_saida;
 
 import java.util.Scanner;
 
 // algoritmo que recebe um valor A e B, e troca o valor de A por B e o valor de B por A
 
-public class exercicio12 {
+public class TrocadorDeValores {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

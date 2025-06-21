@@ -1,10 +1,10 @@
-package exercicios;
+package condicionais;
 
 import java.util.Scanner;
 
 //um algoritmo que leia o ano em que uma pessoa nasceu, imprima na tela quantos anos, meses e dias essa pessoa ja viveu.
 
-public class exercicio13 {
+public class CalculadoraIdadeDetalhada {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

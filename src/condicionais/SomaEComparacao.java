@@ -1,10 +1,10 @@
-package exercicios;
+package condicionais;
 
 import java.util.Scanner;
 
 // ler os valores, mostrar a soma e dizer se e menor que C
 
-public class exercicio1 {
+public class SomaEComparacao {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

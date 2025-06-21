@@ -1,10 +1,10 @@
-package exercicios;
+package condicionais;
 
 import java.util.Scanner;
 
 //Faça um algoritmo que leia dois valores booleanos (lógicos) e determine se ambos são VERDADEIRO ou FALSO.
 
-public class Exercicio14 {
+public class VerificadorBooleano {
     public static void main(String[] args) {
 
 

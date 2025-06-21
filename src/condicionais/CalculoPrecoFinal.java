@@ -1,11 +1,11 @@
-package exercicios;
+package condicionais;
 
 import java.util.Locale;
 import java.util.Scanner;
 
 // Algoritmo que ler o valor de um produto e determina o valor final de acordo com a forma de pagamento
 
-public class exercicio10 {
+public class CalculoPrecoFinal {
     public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);

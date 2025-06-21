@@ -1,4 +1,4 @@
-package exercicios;
+package condicionais;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
 //
 //equilátero, isósceles ou escaleno.
 
-public class Exercicio15 {
+public class AnalisadorDeTriangulo {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

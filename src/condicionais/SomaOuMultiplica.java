@@ -1,10 +1,10 @@
-package exercicios;
+package condicionais;
 
 import java.util.Scanner;
 
 // ler 2 numeros inteiros, somar ou mutiplicar e imprimir o resultado
 
-public class exercicio3 {
+public class SomaOuMultiplica {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

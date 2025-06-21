@@ -1,10 +1,10 @@
-package exercicios;
+package condicionais;
 
 import java.util.Scanner;
 
 // ler numero inteiro - antecessor e sucessor
 
-public class exercicio4 {
+public class AntecessorSucessor {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

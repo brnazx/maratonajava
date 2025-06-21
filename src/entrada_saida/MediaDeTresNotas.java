@@ -1,11 +1,11 @@
-package exercicios;
+package entrada_saida;
 
 import java.util.Locale;
 import java.util.Scanner;
 
 //ler tres notas e dps imprimir na tela a media das notas
 
-public class exercicio9 {
+public class MediaDeTresNotas {
     public static void main(String[] args) {
 
         Locale.setDefault( Locale.US);

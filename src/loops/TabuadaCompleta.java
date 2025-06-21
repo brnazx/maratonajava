@@ -1,8 +1,8 @@
-package exercicios;
+package loops;
 
 //Faça um algoritmo que imprima na tela a tabuada de 1 até 10.
 
-public class Exercicio18 {
+public class TabuadaCompleta {
     public static void main(String[] args) {
 
         for(int i = 1; i <= 10; i++) {

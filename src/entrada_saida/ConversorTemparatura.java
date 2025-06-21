@@ -1,10 +1,10 @@
-package exercicios;
+package entrada_saida;
 
 import java.util.Locale;
 import java.util.Scanner;
 //Faça um algoritmo que leia uma temperatura em Fahrenheit e calcule a temperatura correspondente em grau Celsius. Imprima na tela as duas temperaturas.
 
-public class Exercicio16 {
+public class ConversorTemparatura {
     public static void main(String[] args) {
 
         Locale.setDefault( Locale.US);

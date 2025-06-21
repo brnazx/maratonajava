@@ -1,10 +1,10 @@
-package exercicios;
+package loops;
 
 import java.util.Scanner;
 
 //Faça um algoritmo que receba um valor inteiro e imprima na tela a sua tabuada.
 
-public class Exercicio19 {
+public class Tabuada {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

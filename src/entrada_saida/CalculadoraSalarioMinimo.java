@@ -1,10 +1,10 @@
-package exercicios;
+package entrada_saida;
 
 import java.util.Scanner;
 
 // ler o salario e calcular quantos salarios minimos recebe
 
-public class exercicio5 {
+public class CalculadoraSalarioMinimo {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
