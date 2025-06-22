@@ -16,28 +16,24 @@ public class Carro {
         this.ano = ano;
         this.velocidadeAtual = 0.0;
     }
+    public void acelerarAte(double velocidadeAlvo){
+        System.out.printf("Acelerando o carro até %.2f km/h...%n", velocidadeAlvo);
+        while (this.velocidadeAtual < velocidadeAlvo) {
+            this.velocidadeAtual += 10;
+            if (this.velocidadeAtual > velocidadeAlvo) {
+                this.velocidadeAtual = velocidadeAlvo;
+            }
+            System.out.printf("Velocidade atual: %.2f km/h%n", this.velocidadeAtual);
+            try {
+                Thread.sleep(200);
+            } catch (InterruptedException e) {
+                System.out.println("Aceleração interrompida.");
+                Thread.interrupted();
+                break;
+            }
+        }
+    }
 
-    public void acelerar(double incremento) {
-        if (incremento < 0) {
-            System.out.println("Incremento deve ser positivo.");
-            return;
-        }
-        velocidadeAtual += incremento;
-        System.out.printf("Velocidade atual: %.2f km/h%n", velocidadeAtual);
-    }
-    public void frear(double decremento) {
-        if (decremento < 0) {
-            System.out.println("Decremento deve ser positivo.");
-            return;
-        }
-        if (decremento > velocidadeAtual) {
-            System.out.println("Decremento maior que a velocidade atual. A velocidade será zerada.");
-            velocidadeAtual = 0;
-        } else {
-            velocidadeAtual -= decremento;
-        }
-        System.out.printf("Velocidade atual: %.2f km/h%n", velocidadeAtual);
-    }
     public void exibirDados(){
         System.out.printf("Marca: %s, Modelo: %s, Ano: %d, Velocidade Atual: %.2f km/h%n",
                           marca, modelo, ano, velocidadeAtual);
